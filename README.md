@@ -18,10 +18,18 @@ Slash is looking to hire a strong analytics engineer. This take home is designed
       - This should compile all the models and return no errors. Models should be in the `target/compiled` folder.
   - Run the example.py file to test that your duckdb connection is working. 
     - `python example.py`
-      - This should print out the tables in your duckdb database, and show some sample select statements. 
-
+      - This should print out the tables in your duckdb database (`dev.duckdb`), and show some sample select statements. 
+      - [DuckDB docs](https://duckdb.org/docs/sql/introduction)
   - To run a specific model, you can do `dbt compile && dbt run --select <model_name>`
 
+
+## Dashboarding tools
+
+Feel free to use any dashboarding tool you are comfortable with. A few options:
+- [Metabase](https://www.metabase.com/)
+- [Rill](https://www.rilldata.com/)
+- [Hex](https://hex.tech/)
+- Or even a jupyter notebook
 
 # Overview
 
@@ -109,3 +117,11 @@ Important notes:
 - What is the optimal SCP enrollment strategy?
     - ex. is it better to enroll everyone right away? as soon as they cross a certain tier? or some other strategy?
 - What entities spend a lot, but should _not_ be enrolled in SCP?
+
+# Evaluation
+
+The challenge should take just a few hours. We’ll be primarily evaluating you based on your SQL / Python code (Python is not required, it is optional), data modelling, dashboarding, and presentation skills.
+
+Please send us a link to your private repo once you're done, and the team will set up a call to review your work and give you a chance to present your findings. We'd love to see any scratch work or exploratory analysis you did to get to your final answers.
+
+Good luck!
